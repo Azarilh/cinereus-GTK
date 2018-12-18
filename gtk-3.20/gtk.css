@@ -161,12 +161,12 @@ rubberband,
 flowbox rubberband,
 treeview.view rubberband {
   border: 1px solid #700;
-  background-color: rgba(61, 174, 233, 0.2); }
+  background-color: rgba(135, 5, 0, 0.2); }
   .rubberband:backdrop,
   rubberband:backdrop,
   treeview.view rubberband:backdrop {
     border-color: #700;
-    background-color: rgba(61, 174, 233, 0.2); }
+    background-color: rgba(135, 5, 0, 0.2); }
 
 flowbox flowboxchild {
   padding: 3px;
@@ -2625,8 +2625,8 @@ notebook > header {
     border-radius: 3px 3px 0px 0px;
     border-bottom-color: transparent; }
     notebook > header.top > tabs > tab:hover, notebook > header.top > tabs > tab.prelight-page {
-      background-color: rgba(61, 174, 233, 0.2);
-      border-color: rgba(61, 174, 233, 0.2); }
+      background-color: rgba(135, 5, 0, 0.2);
+      border-color: rgba(135, 5, 0, 0.2); }
     notebook > header.top > tabs > tab:checked {
       border-color: #282D31;
       border-bottom-color: #1a1b1d;
@@ -2642,8 +2642,8 @@ notebook > header {
     border-radius: 0px 0px 3px 3px;
     border-top-color: transparent; }
     notebook > header.bottom > tabs > tab:hover, notebook > header.bottom > tabs > tab.prelight-page {
-      background-color: rgba(61, 174, 233, 0.2);
-      border-color: rgba(61, 174, 233, 0.2); }
+      background-color: rgba(135, 5, 0, 0.2);
+      border-color: rgba(135, 5, 0, 0.2); }
     notebook > header.bottom > tabs > tab:checked {
       border-color: #282D31;
       border-top-color: #1a1b1d;
@@ -2659,8 +2659,8 @@ notebook > header {
     border-radius: 3px 0px 0px 3px;
     border-right-color: transparent; }
     notebook > header.left > tabs > tab:hover, notebook > header.left > tabs > tab.prelight-page {
-      background-color: rgba(61, 174, 233, 0.2);
-      border-color: rgba(61, 174, 233, 0.2); }
+      background-color: rgba(135, 5, 0, 0.2);
+      border-color: rgba(135, 5, 0, 0.2); }
     notebook > header.left > tabs > tab:checked {
       border-color: #282D31;
       border-right-color: #1a1b1d;
@@ -2676,8 +2676,8 @@ notebook > header {
     border-radius: 0px 3px 3px 0px;
     border-left-color: transparent; }
     notebook > header.right > tabs > tab:hover, notebook > header.right > tabs > tab.prelight-page {
-      background-color: rgba(61, 174, 233, 0.2);
-      border-color: rgba(61, 174, 233, 0.2); }
+      background-color: rgba(135, 5, 0, 0.2);
+      border-color: rgba(135, 5, 0, 0.2); }
     notebook > header.right > tabs > tab:checked {
       border-color: #282D31;
       border-left-color: #1a1b1d;
@@ -2696,7 +2696,7 @@ notebook > header {
     border-right-color: #282D31;
     box-shadow: inset -3px 0px 0px 0px #1a1b1d; }
     notebook > header.top > tabs > tab.reorderable-page:hover, notebook > header.top > tabs > tab.reorderable-page.prelight-page {
-      box-shadow: inset 0px -3px 0px 0px rgba(61, 174, 233, 0.2), inset -3px 0px 0px 0px #1a1b1d; }
+      box-shadow: inset 0px -3px 0px 0px rgba(135, 5, 0, 0.2), inset -3px 0px 0px 0px #1a1b1d; }
     notebook > header.top > tabs > tab.reorderable-page:checked {
       box-shadow: inset 0px -3px 0px 0px #700, inset -3px 0px 0px 0px #1a1b1d; }
       notebook > header.top > tabs > tab.reorderable-page:checked:backdrop {
@@ -2718,7 +2718,7 @@ notebook > header {
     border-right-color: #282D31;
     box-shadow: inset -3px 0px 0px 0px #1a1b1d; }
     notebook > header.bottom > tabs > tab.reorderable-page:hover, notebook > header.bottom > tabs > tab.reorderable-page.prelight-page {
-      box-shadow: inset 0px -3px 0px 0px rgba(61, 174, 233, 0.2), inset -3px 0px 0px 0px #1a1b1d; }
+      box-shadow: inset 0px -3px 0px 0px rgba(135, 5, 0, 0.2), inset -3px 0px 0px 0px #1a1b1d; }
     notebook > header.bottom > tabs > tab.reorderable-page:checked {
       box-shadow: inset 0px -3px 0px 0px #700, inset -3px 0px 0px 0px #1a1b1d; }
       notebook > header.bottom > tabs > tab.reorderable-page:checked:backdrop {
@@ -2740,7 +2740,7 @@ notebook > header {
     border-bottom-color: #282D31;
     box-shadow: inset 0px -3px 0px 0px #1a1b1d; }
     notebook > header.left > tabs > tab.reorderable-page:hover, notebook > header.left > tabs > tab.reorderable-page.prelight-page {
-      box-shadow: inset 0px -3px 0px 0px rgba(61, 174, 233, 0.2), inset 0px -3px 0px 0px #1a1b1d; }
+      box-shadow: inset 0px -3px 0px 0px rgba(135, 5, 0, 0.2), inset 0px -3px 0px 0px #1a1b1d; }
     notebook > header.left > tabs > tab.reorderable-page:checked {
       box-shadow: inset 0px -3px 0px 0px #700, inset 0px -3px 0px 0px #1a1b1d; }
       notebook > header.left > tabs > tab.reorderable-page:checked:backdrop {
@@ -2762,7 +2762,7 @@ notebook > header {
     border-bottom-color: #282D31;
     box-shadow: inset 0px -3px 0px 0px #1a1b1d; }
     notebook > header.right > tabs > tab.reorderable-page:hover, notebook > header.right > tabs > tab.reorderable-page.prelight-page {
-      box-shadow: inset 0px -3px 0px 0px rgba(61, 174, 233, 0.2), inset 0px -3px 0px 0px #1a1b1d; }
+      box-shadow: inset 0px -3px 0px 0px rgba(135, 5, 0, 0.2), inset 0px -3px 0px 0px #1a1b1d; }
     notebook > header.right > tabs > tab.reorderable-page:checked {
       box-shadow: inset 0px -3px 0px 0px #700, inset 0px -3px 0px 0px #1a1b1d; }
       notebook > header.right > tabs > tab.reorderable-page:checked:backdrop {
