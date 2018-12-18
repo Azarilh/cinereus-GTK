@@ -475,7 +475,7 @@ button {
   -gtk-icon-shadow: none;
   color: #ffffff;
   border-color: #700;
-  background-image: linear-gradient(to bottom, #40afe9, #35abe8); }
+  background-image: linear-gradient(to bottom, #cb0909, #bc0808); }
   popover.background.touch-selection button.suggested-action.flat, popover.background.magnifier button.suggested-action.flat, popover.background.touch-selection button.suggested-action.osd button.flat, popover.background.magnifier button.suggested-action.osd button.flat,
   button.suggested-action.flat,
   button.suggested-action.osd popover.background.touch-selection button.flat,
@@ -549,7 +549,7 @@ button {
   button.flat:backdrop {
     color: white;
     border-color: #282D31;
-    background-image: linear-gradient(to bottom, #40afe9, #35abe8); }
+    background-image: linear-gradient(to bottom, #cb0909, #bc0808); }
     popover.background.touch-selection button.suggested-action:backdrop:active, popover.background.magnifier button.suggested-action:backdrop:active, popover.background.touch-selection button.suggested-action:backdrop:checked, popover.background.magnifier button.suggested-action:backdrop:checked, popover.background.touch-selection button.suggested-action.flat:backdrop:active, popover.background.magnifier button.suggested-action.flat:backdrop:active, popover.background.touch-selection button.suggested-action.flat:backdrop:checked, popover.background.magnifier button.suggested-action.flat:backdrop:checked, popover.background.touch-selection button.suggested-action.osd button:backdrop:active, popover.background.magnifier button.suggested-action.osd button:backdrop:active, popover.background.touch-selection button.suggested-action.osd button:backdrop:checked, popover.background.magnifier button.suggested-action.osd button:backdrop:checked, popover.background.touch-selection button.suggested-action.osd button.flat:backdrop:active, popover.background.magnifier button.suggested-action.osd button.flat:backdrop:active, popover.background.touch-selection button.suggested-action.osd button.flat:backdrop:checked, popover.background.magnifier button.suggested-action.osd button.flat:backdrop:checked,
     button.suggested-action:backdrop:active,
     button.suggested-action:backdrop:checked,
@@ -2103,7 +2103,7 @@ button:visited > label,
 *:link,
 button:link,
 button:visited {
-  color: #2980b9; }
+  color: #e00; }
   button:link > label:visited,
   button:visited > label:visited,
   *:link:visited,
@@ -2132,7 +2132,7 @@ button:visited {
   *:link:active,
   button:active:link,
   button:active:visited {
-    color: #2980b9; }
+    color: #e00; }
     *:selected button:link > label:active,
     *:selected button:visited > label:active, *:selected
     *:link:active, *:selected
